@@ -6,17 +6,17 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-
+Import sys library
 ### Step 2: 
- 
+ Initialize a variable count = {}
 ### Step 3: 
-
+Open the file using with open(sys.argv[1], 'r') as f:
 ### Step 4:  
-
+Use for loops
 ### Step 5: 
-
+Use if else to count the words
 ### Step 6: 
-
+End the program
 ## PROGRAM:
 ```
 Command line arguments to count words
@@ -25,7 +25,7 @@ Register no: 22008643
 ```
 ```python
 import sys
-count = []
+count = {}
 with open(sys.argv[1], 'r') as f:
     for line in f:
         for word in line.split():
